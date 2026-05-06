@@ -6,18 +6,6 @@ on:
       - main
 
 jobs:
-  docker:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: echo name
-        run: echo "kareem"
----
-name: Cowsay
-
-on: push
-
-jobs:
   ascii_job:
     runs-on: ubuntu-latest
 
