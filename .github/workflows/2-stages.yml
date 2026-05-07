@@ -12,10 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.2
-        with:
-          sparse-checkout: |
-            script.sh
-
 
       - name: run_sh
         run: |
@@ -33,10 +29,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.2
-        with:
-          sparse-checkout: |
-            script.sh
-            dragon.txt
 
       - name: run_sh
         run: |
